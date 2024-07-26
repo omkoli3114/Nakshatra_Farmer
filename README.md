@@ -1,23 +1,15 @@
-# Krashak.AI
-> Problem Statement (AGRI12)
+# Nakshatra
 
 
-AI-based voice-assisted Contact Center for assisting Farmers for their problems. Farmers can log their problems with the contact center thru phone calls / SMS / website and in return an automated voice response can be provided to the farmers with a most appropriate solution for their problems.
+This project aims to empower small and marginal farmers in India by providing critical agricultural information through SMS-based services, ensuring accessibility even for those without advanced technology. The solution addresses challenges like unpredictable weather, pest infestations, poor soil health, and fluctuating market prices by delivering tailored advice on crops, weather, and market prices. Additionally, it offers a dual approach to cater to both traditional non-tech farmers and tech-savvy farmers, enhancing inclusivity and scalability.
 
-# UNESCO India - Africa Hackathon
 
-<p align="center"><img src="https://user-images.githubusercontent.com/55245862/205508044-e43024b4-3c92-4ab9-9f6b-e3c6038205a6.jpg" height="200" width="300"></p>
-
-## Features
-
-1. Localization
-2. Provides best solutions to the farmer's problem using NLP algorithm and knowledge base repository.
-3. Crop Recommendation
-4. Fertilizer Recommendation
-5. Disease Prediction
-6. Weather Forcasting
-7. AI Voice Assistance
-8. Voice SMS in local language
+Key Features:
+- For Non-Tech Farmers:
+  - SMS-based weather alerts, crop management tips, market price updates, government schemes info, automated irrigation schedules, and crop information updates.
+  
+- For Tech-Savvy Farmers:
+  - Advanced features such as field mapping, resource optimization recommendations, learning resources, community features, IoT device integration, and crop pest and disease detection via image analysis.
 
 
 
@@ -39,41 +31,6 @@ Note: When you enter the city name, make sure to enter mostly common city names.
 - Fertilizer suggestion system ==> Enter the nutrient contents of your soil and the crop you want to grow. The algorithm will tell which nutrient the soil has excess of or lacks. Accordingly, it will give suggestions for buying fertilizers.
 
 - Disease Detection System ==> Upload an image of leaf of your plant. The algorithm will tell the crop type and whether it is diseased or healthy. If it is diseased, it will tell you the cause of the disease and suggest you how to prevent/cure the disease accordingly.
-Note that, for now it only supports following crops
-
-#### GitHub Repository Structure
-
-
-| S.No. | Branch Name                                                                  | Purpose                       |
-| ----- | ---------------------------------------------------------------------------- | ----------------------------- |
-| 1.    | [master](https://github.com/rudrakshi99/Farmer-Call-Center/tree/master)      | contains all Frontend code    |
-| 2.    | [backend](https://github.com/rudrakshi99/Farmer-Call-Center/tree/backend)    | contains all Backend code     |
-| 3.    | [ml](https://github.com/rudrakshi99/Farmer-Call-Center/tree/ml)              | contains all ML code          |
-
-
-## Team Members:
-
-| S.No. | Name | Role | GitHub Username:octocat: |
-| --------------- | --------------- | --------------- | --------------- |
-| 1. | Rudrakshi (Team Leader) | Frontend Development| [@rudrakshi99](https://github.com/rudrakshi99)  |
-| 2. | Frank Makeba | Frontend Development | [@CutCoders](https://github.com/CutCoders) |
-| 3. | Tony Onkgopotse Richard | Backend Development | [@Onkgopotse007](https://github.com/Onkgopotse007) |
-| 4. | Pedro Anda Ondo Nchama | Backend Development| [@paondonchama](https://github.com/paondonchama)  |
-| 5. | Faremi Saheed | ML Engineer | [@faremi](https://github.com/faremi)  |
-| 6. | Ayushi Saxena | Product Designer | [@ayushisaxena19](https://github.com/ayushisaxena19)  |
-
-## Maintainers✨
-
-<table>
-  <tbody><tr>
-    <td align="center"><a href="https://github.com/rudrakshi99"><img alt="" src="https://avatars.githubusercontent.com/rudrakshi99" width="100px;"><br><sub><b>Rudrakshi</b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/master?author=rudrakshi99" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/faremi"><img alt="" src="https://avatars.githubusercontent.com/faremi" width="100px;"><br><sub><b>Faremi Saheed </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/backend?author=faremi" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/paondonchama"><img alt="" src="https://avatars.githubusercontent.com/paondonchama" width="100px;"><br><sub><b>Pedro Anda Ondo Nchama </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/backend?author=paondonchama" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Onkgopotse007"><img alt="" src="https://avatars.githubusercontent.com/Onkgopotse007" width="100px;"><br><sub><b>Tony Onkgopotse Richard </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/call_api?author=Onkgopotse007" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ayushisaxena19"><img alt="" src="https://avatars.githubusercontent.com/ayushisaxena19" width="100px;"><br><sub><b>Ayushi Saxena  </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/CutCoders"><img alt="" src="https://avatars.githubusercontent.com/CutCoders" width="100px;"><br><sub><b>Frank Makeba </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/master?author=CutCoders" title="Code">💻</a></td>
-  </tr>
-</tbody></table>
 
 
 # License :memo:
